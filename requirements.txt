@@ -1,0 +1,19 @@
+# RVC Training Pipeline Dependencies
+
+# Audio processing
+librosa>=0.9.0
+soundfile>=0.12.0
+pydub>=0.25.0
+scipy>=1.10.0
+numpy>=1.23.0
+
+# Machine learning
+torch>=2.0.0
+torchaudio>=2.0.0
+faiss-cpu>=1.7.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Note: The full RVC requirements will be installed from the RVC repository
+# during the setup phase. These are the minimum requirements for the pipeline scripts.
